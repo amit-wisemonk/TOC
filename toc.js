@@ -1,6 +1,6 @@
 /**
  * Webflow Table of Contents Script
- * Version: 1.1
+ * Version: v1.0.0
  * 
  * Designed for Webflow structure:
  * <div class="toc_nav"> 
@@ -13,7 +13,6 @@
  * - Maintains exact TOC HTML structure
  */
 
-<script>
 class TOC {
     constructor() {
         // Select base elements
@@ -126,4 +125,4 @@ class TOC {
 window.addEventListener('load', () => {
     window.webflowTOC = new TOC();
 });
-</script>
+
